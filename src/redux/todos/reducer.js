@@ -17,7 +17,6 @@ const initialState = [
     id: 2,
     text: "Learn Redux",
     completed: false,
-    color: "red",
   },
 ];
 
@@ -40,7 +39,7 @@ const reducer = (state = initialState, action) => {
 
     case TOGGLED:
       return state.map((todo) => {
-        if (todo.id == action.payload) {
+        if (todo.id === action.payload) {
           return {
             ...todo,
             completed: !todo.completed,
@@ -51,7 +50,7 @@ const reducer = (state = initialState, action) => {
 
     case COLORSELECTED:
       return state.map((todo) => {
-        if (todo.id == action.payload.todoId) {
+        if (todo.id === action.payload.todoId) {
           return {
             ...todo,
             color: action.payload.color,
