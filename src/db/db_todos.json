@@ -27,12 +27,20 @@
     {
       "id": 5,
       "text": "Learn Laravel DataTable",
-      "completed": false
+      "completed": false,
+      "color": "green"
     },
     {
       "text": "Finish Laravel Project",
       "completed": false,
-      "id": 6
+      "id": 6,
+      "color": "red"
+    },
+    {
+      "text": "2",
+      "completed": false,
+      "id": 8,
+      "color": "yellow"
     }
   ]
 }
