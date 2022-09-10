@@ -1,33 +1,38 @@
 {
-    "todos": [
-        {
-            "id": 1,
-            "text": "Learn React JS",
-            "completed": false,
-            "color": "yellow"
-        },
-        {
-            "id": 2,
-            "text": "Learn Redux",
-            "completed": false,
-            "color": "red"
-        },
-        {
-            "id": 3,
-            "text": "Learn Vanilla  JavaScript",
-            "completed": true,
-            "color": "yellow"
-        },
-        {
-            "id": 4,
-            "text": "Learn Laravel 9",
-            "completed": false,
-            "color": "green"
-        },
-        {
-            "id": 5,
-            "text": "Learn Laravel DataTable",
-            "completed": false
-        }
-    ]
+  "todos": [
+    {
+      "id": 1,
+      "text": "Learn React JS",
+      "completed": false,
+      "color": "yellow"
+    },
+    {
+      "id": 2,
+      "text": "Learn Redux",
+      "completed": false,
+      "color": "red"
+    },
+    {
+      "id": 3,
+      "text": "Learn Vanilla  JavaScript",
+      "completed": true,
+      "color": "yellow"
+    },
+    {
+      "id": 4,
+      "text": "Learn Laravel 9",
+      "completed": false,
+      "color": "green"
+    },
+    {
+      "id": 5,
+      "text": "Learn Laravel DataTable",
+      "completed": false
+    },
+    {
+      "text": "Finish Laravel Project",
+      "completed": false,
+      "id": 6
+    }
+  ]
 }
